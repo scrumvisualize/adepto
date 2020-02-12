@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74223" started-at="2020-02-13T01:44:27 AEST" finished-at="2020-02-13T01:45:41 AEST">
+    <groups>
+    </groups>
+    <test name="SignUpFormTest" duration-ms="74223" started-at="2020-02-13T01:44:27 AEST" finished-at="2020-02-13T01:45:41 AEST">
+      <class name="test.SignUpFormTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.SignUpFormTest@2d928643]" name="beforeMethod" is-config="true" duration-ms="11796" started-at="2020-02-13T01:44:27 AEST" finished-at="2020-02-13T01:44:39 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="blankEmailSignUp()[pri:0, instance:test.SignUpFormTest@2d928643]" name="blankEmailSignUp" duration-ms="2295" started-at="2020-02-13T01:44:39 AEST" finished-at="2020-02-13T01:44:41 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankEmailSignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignUpFormTest@2d928643]" name="tearDown" is-config="true" duration-ms="736" started-at="2020-02-13T01:44:41 AEST" finished-at="2020-02-13T01:44:42 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.SignUpFormTest@2d928643]" name="beforeMethod" is-config="true" duration-ms="11323" started-at="2020-02-13T01:44:42 AEST" finished-at="2020-02-13T01:44:53 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getCountOfCharacters()[pri:0, instance:test.SignUpFormTest@2d928643]" name="getCountOfCharacters" duration-ms="2257" started-at="2020-02-13T01:44:53 AEST" finished-at="2020-02-13T01:44:55 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountOfCharacters -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignUpFormTest@2d928643]" name="tearDown" is-config="true" duration-ms="738" started-at="2020-02-13T01:44:55 AEST" finished-at="2020-02-13T01:44:56 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.SignUpFormTest@2d928643]" name="beforeMethod" is-config="true" duration-ms="10874" started-at="2020-02-13T01:44:56 AEST" finished-at="2020-02-13T01:45:07 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidEmailSignup()[pri:0, instance:test.SignUpFormTest@2d928643]" name="invalidEmailSignup" duration-ms="2791" started-at="2020-02-13T01:45:07 AEST" finished-at="2020-02-13T01:45:10 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailSignup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignUpFormTest@2d928643]" name="tearDown" is-config="true" duration-ms="909" started-at="2020-02-13T01:45:10 AEST" finished-at="2020-02-13T01:45:11 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.SignUpFormTest@2d928643]" name="beforeMethod" is-config="true" duration-ms="11851" started-at="2020-02-13T01:45:11 AEST" finished-at="2020-02-13T01:45:23 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="navigateToLoginScreen()[pri:0, instance:test.SignUpFormTest@2d928643]" name="navigateToLoginScreen" duration-ms="1704" started-at="2020-02-13T01:45:23 AEST" finished-at="2020-02-13T01:45:24 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginScreen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignUpFormTest@2d928643]" name="tearDown" is-config="true" duration-ms="774" started-at="2020-02-13T01:45:24 AEST" finished-at="2020-02-13T01:45:25 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.SignUpFormTest@2d928643]" name="beforeMethod" is-config="true" duration-ms="10925" started-at="2020-02-13T01:45:25 AEST" finished-at="2020-02-13T01:45:36 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="successfullSignUp()[pri:0, instance:test.SignUpFormTest@2d928643]" name="successfullSignUp" duration-ms="4406" started-at="2020-02-13T01:45:36 AEST" finished-at="2020-02-13T01:45:40 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullSignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SignUpFormTest@2d928643]" name="tearDown" is-config="true" duration-ms="773" started-at="2020-02-13T01:45:40 AEST" finished-at="2020-02-13T01:45:41 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SignUpFormTest -->
+    </test> <!-- SignUpFormTest -->
+  </suite> <!-- Suite -->
+</testng-results>
