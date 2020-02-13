@@ -9,6 +9,12 @@ import org.testng.annotations.Test;
 import pages.SignUpFormPage;
 import utilities.CaptureScreenShot;
 
+/** 
+ * Author: Vinod Mathew
+ * Date:   13 Feb 2020
+ * Projet: Selenium Test project
+ */
+
 public class SignUpFormTest extends BaseTest {
 	
 	/**Test to verify whether the system validates for 'invalid' email entered in the Account Email field:**/
