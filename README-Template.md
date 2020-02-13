@@ -29,8 +29,9 @@ A step by step process that tell you how to run the Selenium Web Driver UI tests
 2. Under the package explorer navigate to 'testng.xml'
 3. Right click on 'testng.xml' file > Run As > TestNG Suite
 4. TestNg will start running the Selenium Web Driver tests.
-5. At the end of the test run, it will create a screenshot in jpg format and copy that to..\adeptotest folder.
-6. To see the test results - Expand the 'test-output' folder under package explorer, right click on 'emailable-report.html' > open it with Web Browser.
+5. At the end of the test run, it will create a screenshot in jpg format, saved to \adeptotest folder.
+6. To see the test results - Expand the 'test-output' folder under package explorer, right 
+   click on 'emailable-report.html' > open it with Web Browser.
 
 ```
 
@@ -39,7 +40,8 @@ A step by step process that tell you how to run the Selenium Web Driver UI tests
 Couple of ways you can run the UI test. 
 
 * Right click on 'testng.xml' file > Run As > TestNG Suite
-* Running executable jar from the CLI, ex: java -jar selenium-server.jar -htmlSuite "*firefox" "http://ip_address" "C:\mytestsuite\mytestsuite.html"  "C:\mytestsuite\results.html"
+* Running executable jar from the CLI, ex: java -jar selenium-server.jar -htmlSuite 
+"*firefox" "http://ip_address" "C:\mytestsuite\mytestsuite.html"  "C:\mytestsuite\results.html"
   
 
 ### Break down into end to end tests
@@ -47,8 +49,8 @@ Couple of ways you can run the UI test.
 Explain what these tests test and why
 
 ```
-Automation UI tests are created for Sign Up module. These UI tests will ensure better feedback, stability about the module 
-and ensure system is performing necessary validations at all times.
+Automation UI tests are created for Sign Up module. These UI tests will ensure better feedback, 
+stability about the module and ensure system is performing necessary validations at all times.
 
 ```
 
@@ -57,12 +59,13 @@ and ensure system is performing necessary validations at all times.
 Explain what these tests and why
 
 ```
-Automation UI tests are created in Page Object Model. This pattern provide better modularity, easy to maintain, redability and avoid code duplication.
+Automation UI tests are created in Page Object Model. This pattern provide better modularity, 
+easy to maintain, redability and avoid code duplication.
 ```
 
 ## Authors
 
-* **Vinod M** - *Initial work* - [PurpleBooth](https://github.com/scrumvisualize)
+* **Vinod M**
 
 
 ## Note
