@@ -5,10 +5,10 @@
     <classes>
       <class name="test.SignUpFormTest">
         <methods>
-          <include name="navigateToLoginScreen"/>
-          <include name="successfullSignUp"/>
           <include name="beforeMethod"/>
+          <include name="getCountOfCharacters"/>
           <include name="tearDown"/>
+          <include name="invalidEmailSignup"/>
         </methods>
       </class> <!-- test.SignUpFormTest -->
     </classes>

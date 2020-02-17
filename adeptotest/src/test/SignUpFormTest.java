@@ -12,7 +12,7 @@ import utilities.CaptureScreenShot;
 /** 
  * Author: Vinod Mathew
  * Date:   13 Feb 2020
- * Projet: Selenium Test project
+ * Project: Selenium Test project
  */
 
 public class SignUpFormTest extends BaseTest {
@@ -125,6 +125,7 @@ public class SignUpFormTest extends BaseTest {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		WebElement welcomeElement = driver.findElement(By.xpath("//span[text()='Welcome, Bird Watcher']"));
 		String welcomeText = welcomeElement.getText();
+		System.out.println("Check Welcome page:" +welcomeText);
 		CaptureScreenShot capturescreenshot = new CaptureScreenShot();
 		try {
 			capturescreenshot.robo();
