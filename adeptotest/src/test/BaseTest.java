@@ -22,7 +22,7 @@ public class BaseTest {
 		//Check if parameter passed from TestNG is 'firefox'
 		String localDir = System.getProperty("user.dir");
 		if(browser.equalsIgnoreCase("firefox")){
-		//create firefox instance
+			//set path to firefoxdriver.exe
 			System.setProperty("webdriver.gecko.driver",localDir + "\\resources\\geckodriver.exe");
 			System.out.println("FireFox Driver started...");
 			FirefoxOptions firefoxOptions = new FirefoxOptions();
@@ -33,9 +33,7 @@ public class BaseTest {
 		else if(browser.equalsIgnoreCase("chrome")){
 			//set path to chromedriver.exe
 			System.setProperty("webdriver.chrome.driver",localDir + "\\resources\\chromedriver.exe");
-			//create chrome instance
 			System.out.println("Chrome Driver started...");
-			//driver = new ChromeDriver();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless");
 			driver = new ChromeDriver(options);
