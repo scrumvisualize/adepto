@@ -1,14 +1,15 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SignUpFormPage {
 
-	public ChromeDriver driver;
+	public WebDriver driver;
 
-	public SignUpFormPage(ChromeDriver driver) {
+	public SignUpFormPage(WebDriver driver) {
 		this.driver = driver;
 	}
 

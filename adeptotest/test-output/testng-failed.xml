@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="SignUpFormTest(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="SignUpFormTestChrome(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
     <classes>
       <class name="test.SignUpFormTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="getCountOfCharacters"/>
           <include name="tearDown"/>
           <include name="invalidEmailSignup"/>
         </methods>
       </class> <!-- test.SignUpFormTest -->
     </classes>
-  </test> <!-- SignUpFormTest(failed) -->
+  </test> <!-- SignUpFormTestChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->
